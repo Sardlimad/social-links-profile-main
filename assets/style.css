@@ -30,9 +30,9 @@ body {
     padding: 25px 40px;
     text-align: center;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 14px;
 
-    margin: 120px 0px;
+    margin: 150px 0px;
 }
 
 #avatar {
@@ -44,7 +44,7 @@ body {
 #fullname {
     margin-bottom: 0px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #ubication {
@@ -79,4 +79,23 @@ body {
 .link-button:hover {
     background-color: var(--Green);
     color: var(--OffBlack);
+}
+
+@media (min-width: 200px) and (max-width: 576px) {
+    .main-container {
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .main-container {
+        width: 40%;
+    }
+}
+
+@media (min-width: 769px) {
+    .main-container {
+        width: 20%;
+    }
 }
