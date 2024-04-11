@@ -1,0 +1,82 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    margin: 0;
+    background-color: var(--OffBlack);
+    color: var(--White);
+
+}
+
+.main-container {
+    background-color: var(--DarkGrey);
+    font-family: "Inter";
+    width: 20%;
+    padding: 25px 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+
+    margin: 120px 0px;
+}
+
+#avatar {
+    border-radius: 100px;
+    width: 30%;
+    margin-top: 18px;
+}
+
+#fullname {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#ubication {
+    margin-top: 8px;
+    color: var(--Green);
+    font-weight: 600;
+}
+
+#info {
+    margin: 25px 0px;
+}
+
+.buttons-section {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.link-button {
+    display: block;
+    color: var(--White);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--Grey);
+    padding: 12px 0px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    background-color: var(--Green);
+    color: var(--OffBlack);
+}
